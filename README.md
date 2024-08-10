@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+**Shifumi App**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Summary**
 
-## Available Scripts
+- [Project Initialization](#project-initialization)
+- [Introduction](#introduction)
+- [Rules of the game](#rules-of-the-game)
+- [Game sequences](#game-sequences)
+  - [Auto play](#auto-play)
+  - [Manual play](#manual-play)
+- [Get in touch](#get-in-touch)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+</br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Project Initialization
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+    - before started unsure to install all dependensies with :
+    `npm install `
 
-### `npm test`
+    - to run the project presse :
+    `npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Introduction
 
-### `npm run build`
+    Rock paper scissors is an intransitive hand game, usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. These shapes are "rock", "paper", and "scissors".
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Rules of the game
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    - Rock beats scissors
+    - Scissors beats paper
+    - Paper beats rock
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Game sequences
 
-### `npm run eject`
+    The user has two options to start the game: `Auto Play` and `Manual Play`.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Auto play
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    - In this mode, the application generates two random numbers and compares them to determine the winner.
+    - The winner is displayed on the screen.
+    - The user can play again by clicking on Retry.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Manual play
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- The user can choose between Rock, Paper, and Scissors.
+- To play against the computer, the user clicks on Start Game, and the app will generate a random number representing the computer's choice.
+- The user can play again by clicking on Retry.
+- The user can change their choice and retry the battle.
 
-## Learn More
+## Get in touch
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+houissahedi@gmail.com

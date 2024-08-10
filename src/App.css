@@ -27,7 +27,9 @@
 .App-link {
   color: #61dafb;
 }
-
+.test {
+  background-color: aqua;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +37,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.jumping-text {
+  display: inline-block;
+  animation: jump 0.3s ease-in-out infinite;
+}
+
+@keyframes jump {
+  0%, 100% {
+    transform: translateY(10);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes autoZoom {
+  0%, 100% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+}
+
+.auto-zoom {
+  animation: autoZoom 4s ease-in-out infinite;
 }
